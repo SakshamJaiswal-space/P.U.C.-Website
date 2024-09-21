@@ -1,0 +1,723 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Arima+Madurai&family=Courgette&family=Lobster&family=Merienda:wght@700&family=Pacifico&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Arima+Madurai&family=Courgette&family=Lobster&family=Merienda:wght@700&family=Pacifico&family=Racing+Sans+One&family=Ruluko&family=Ubuntu+Mono:ital@1&family=Yatra+One&display=swap');
+
+@media only screen and (min-width:1246px) and (max-width: 1288px) {
+    .Heading {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cc {
+        width: 20rem;
+        height: 15rem
+    }
+
+}
+
+
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    /* border: 2px solid red; */
+}
+
+body {
+    background: url('Images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-attachment: fixed;
+    /* opacity: 0.5; */
+}
+
+.navigation {
+
+    /* background-color: red; */
+    margin: 0px 1rem;
+
+
+}
+
+
+
+.ancor {
+    text-decoration: none;
+    color: white;
+    /* border-color: 2px solid rgb(0, 47, 255); */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    padding: 0.47rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+}
+
+.ancor:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    background-color: white;
+    color: black;
+    border-radius: 3rem;
+}
+
+
+
+header {
+    /* height: 500px;  */
+    /* border: 2px solid blue; */
+    /* position: fixed; */
+    display: flex;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    background: none;
+    height: 68px;
+    transition: all 0.6s ease-out;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* padding-top: 25px; */
+    align-items: center;
+    justify-content: center;
+    /* transition: all 0.6s ease-out; */
+}
+
+.image {
+    width: 5.5rem;
+    height: 4rem;
+    /* margin: 0.5rem; */
+    /* margin-left: 3rem; */
+    filter: invert(1);
+    /* position: absolute; */
+    /* left: 20px;
+    top: 2px; */
+    /* border: 2px solid blue; */
+}
+
+
+
+
+
+.Heading p strong {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Amaranth', sans-serif;
+    /* padding-top: 200rem; */
+}
+
+.Heading p {
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Arima Madurai', 'Pacifico'
+}
+
+.Heading img {
+    padding-left: 50px;
+}
+
+#dealer {
+    /* width: 92rem; */
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    /* border: 2px solid blue; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Heading {
+    color: rgb(253, 253, 253);
+    /* border: 2px solid red; */
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.same {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: -1;
+    color: white;
+}
+
+#home {
+    /* top: 25rem; */
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+
+
+#cont4 {
+    top: 107rem;
+    /* border: 2px solid red; */
+    margin: 16px 0px;
+}
+
+
+#heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px 0px 0px 0px;
+    font-family: 'Merienda', 'Pacifico';
+
+}
+
+.map {
+    height: 309px;
+    width: 848px;
+}
+
+.para {
+    font-size: 1.5rem;
+    font-family: 'Ruluko', 'Baloo Bhai';
+    margin: 0px 50px;
+    /* margin-top: 25px; */
+    /* margin-bottom: 60px; */
+    /* border: 2px solid blue; */
+    line-height: 32px;
+}
+
+.head {
+    /* border: 2px solid red; */
+    font-size: 2rem;
+    font-family: 'Merienda', 'Courgette';
+
+    margin: 50px 50px;
+}
+
+.dd {
+    padding: 0rem 1rem;
+}
+
+#Hyundai {
+    width: 8rem;
+    height: 5rem;
+    /* border: 2px solid black; */
+}
+
+#TVS {
+    filter: invert(.2);
+}
+
+#KIA {
+    filter: invert(1);
+}
+
+#Renault {
+    filter: invert(1);
+}
+
+#Hero {
+    width: 10rem;
+    height: 4rem;
+}
+
+.dd {
+    height: inherit;
+}
+
+.pp {
+    /* width: 92rem; */
+    width: 100%;
+    height: 19rem;
+    display: flex;
+    /* border: 2px solid blue; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.pp2 {
+    /* width: 92rem; */
+    width: 100%;
+    height: 26rem;
+    display: flex;
+    /* border: 2px solid blue; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.pp3 {
+    /* width: 92rem; */
+    width: 100%;
+    height: inherit;
+    display: flex;
+    /* border: 2px solid blue; */
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+    margin: 18px 0px;
+}
+
+.pp3 div {
+    margin: 0rem 0rem;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin: 1rem 1rem;
+}
+
+.pp h1 {
+    /* margin-top: 1rem; */
+    font-family: 'Merienda', 'Courgette';
+    font-size: 2rem;
+}
+
+.pp2 h1 {
+    /* margin-top: 1rem; */
+    font-family: 'Merienda', 'Courgette';
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+#Gallery {
+    /* width: 50rem; */
+    height: 13rem;
+    display: flex;
+    flex-direction: row;
+    /* margin: 30px 00rem; */
+    margin-top: 12px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* gap: 20px; */
+    /* align-items: center; */
+}
+
+.ga {
+    /* border: 2px solid black; */
+    /* height: 3rem; */
+    width: 25rem;
+    /* height: inherit; */
+    /* display: none; */
+    margin: 6px 0.2rem;
+    /* border-radius: 0.5rem; */
+}
+
+#im1 {
+    width: 17rem;
+}
+
+#im2 {
+    width: 17rem;
+}
+
+#im3 {
+    width: 18rem;
+}
+
+.ll {
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 19rem;
+    /* margin-top: 1rem; */
+    font-family: 'Merienda', 'Courgette';
+    font-size: 2rem;
+    /* margin: 30rem 0rem; */
+}
+
+#contact {
+    grid-area: contact;
+    text-align: center;
+}
+
+#address {
+    grid-area: address;
+    text-align: center;
+}
+
+#business {
+    grid-area: business;
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.3rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    font-weight: 100px;
+}
+
+.btn:hover {
+    font-size: 1.3rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    /* background: none; */
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 25px;
+    display: none;
+    /* border: 5px solid red; */
+    z-index: 1;
+}
+
+
+.line {
+    width: 50px;
+    background-color: white;
+    height: 6px;
+    margin: 5px 3px;
+}
+
+
+/* #Hero {
+    display: none;
+}
+
+#Renault {
+    display: none;
+}
+
+#KIA {
+    display: none;
+}
+
+#Tata {
+    display: none;
+}
+
+#TVS {
+    display: none;
+}
+
+#Suzuki {
+    display: none;
+} */
+
+/* #Gallery {
+    display: none;
+} */
+
+/* .pp2 {
+    display: none;
+} */
+
+#cc {
+    display: none;
+}
+
+.class {
+    width: 50px;
+    height: 50px;
+}
+
+/* .pp2 a{width: 50px;
+    height: 50px;} */
+.ancor:active {
+    background-color: black;
+}
+
+@media only screen and (max-width:1001px) {
+    .burger.isactive .line:nth-child(1) {
+        transform: translateY(13px) rotate(45deg);
+        border: 10px solid red
+    }
+    .burger.isactive .line:nth-child(2) {
+        opacity: 0;
+      }
+    .burger.isactive .line:nth-child(3) {
+        transform: translateY(-13px) rotate(-45deg);
+    }
+
+    header {
+        height: 83px;
+    }
+
+    #n1 {
+        padding: 0.47rem 68px;
+        /* border: 2px solid red;
+        border-radius: 0px; */
+    }
+
+    #n2 {
+        padding: 0.47rem 63px;
+        /* border: 2px solid red;
+        border-radius: 0px; */
+    }
+
+    #n3 {
+        padding: 0.47rem 30px;
+        /* border: 2px solid red;
+        border-radius: 0px; */
+    }
+
+    #n4 {
+        padding: 0.47rem 59px;
+        /* border: 2px solid red;
+        border-radius: 0px; */
+    }
+
+    #n5 {
+        padding: 0.47rem 44px;
+        /* border: 2px solid red;
+        border-radius: 0px; */
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .image {
+        width: 6.5rem;
+        height: 5rem;
+        margin: 0px;
+        position: absolute;
+        /* border: 2px solid blue; */
+    }
+
+    .mik {
+        height: 306px;
+        /* border: 5px solid red; */
+    }
+
+    .uul {
+        width: 100%;
+        position: relative;
+        top: 26%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+        margin: 0px;
+        /* border: 3px solid rgb(56, 27, 113); */
+        height: 210px;
+    }
+
+    .navigation {
+        margin: 7px 0px;
+        height: inherit;
+    }
+
+    .visible {
+        opacity: 0
+    }
+
+    .head {
+        margin: 0px 11px;
+        margin-top: 65px;
+        margin-bottom: 0px;
+    }
+
+    .para {
+        margin: 0px 11px;
+    }
+
+    .pp3 div {
+        margin-bottom: 20px;
+    }
+
+    .ll {
+        height: inherit;
+    }
+}
+
+@media only screen and (max-width:396px) {
+    body {
+        background: url('Images/phoneimg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-attachment: fixed;
+        /* opacity: 0.5; */
+    }
+
+    /* .dd{display: none;}
+    body{background-color: pink !important;}
+    #Hero{display: none;}
+    #Renault{display: none;}
+    #KIA{display: none;}
+    #Tata{display: none;}
+    #TVS{display: none;}
+    #Suzuki{display: none;}
+    #Suzuki{display: none;}
+    #Suzuki{display: none;} */
+    .pp3 {
+        flex-direction: column;
+    }
+
+    .pp3 div {
+        /* border: 4px solid blue; */
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:863px) {
+    .pp3 {
+        flex-direction: column;
+    }
+
+    .pp3 div {
+        /* border: 4px solid blue; */
+        margin-bottom: 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Heading {
+        font-size: 40px;
+    }
+
+    .Heading p {
+        font-size: 20px;
+    }
+
+    #Gallery {
+        flex-direction: column;
+        height: 36rem;
+    }
+
+    .pp {
+        height: 40rem;
+    }
+
+    .ga {
+        width: 22rem;
+    }
+
+    #im1 {
+        width: 22rem;
+        height: 10rem;
+    }
+
+    #im2 {
+        width: 22rem;
+        height: 10rem;
+    }
+
+    #im3 {
+        width: 22rem;
+        height: 13rem;
+    }
+
+    .pp2 {
+        height: 17rem;
+    }
+
+    .pp2 a img {
+        width: 368px;
+        height: 182px;
+    }
+}
+
+
+@media only screen and (max-width:1141px) {
+    /* #Gallery{flex-direction: column;} */
+}
+
+@media only screen and (max-width:1321px) {
+    #Hyundai {
+        display: none;
+    }
+
+    #KIA {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1003px) {
+    #Hyundai {
+        display: none;
+    }
+
+    #KIA {
+        display: none;
+    }
+
+    #Renault {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1003px) {
+    #Hyundai {
+        display: none;
+    }
+
+    #KIA {
+        display: none;
+    }
+
+    #Renault {
+        display: none;
+    }
+
+    #Suzuki {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:673px) {
+    #Hyundai {
+        display: none;
+    }
+
+    #KIA {
+        display: none;
+    }
+
+    #Renault {
+        display: none;
+    }
+
+    #Suzuki {
+        display: none;
+    }
+
+    #TVS {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:673px) {
+    #Hyundai {
+        display: none;
+    }
+
+    #KIA {
+        display: none;
+    }
+
+    #Renault {
+        display: none;
+    }
+
+    #Suzuki {
+        display: none;
+    }
+
+    #TVS {
+        display: none;
+    }
+
+    #Tata {
+        display: none;
+    }
+}
